@@ -36,6 +36,7 @@
   <button type="submit">Send</button>
 </form>
 <h2>Top 3 Football Players</h2>
+
 <table border="1">
   <thead>
     <tr>
@@ -46,22 +47,52 @@
   </thead>
   <tbody>
     <tr>
+      <td>Lionel Messi</td>
+      <td>Inter Miami</td>
+      <td>Forward</td>
+    </tr>
+    <tr>
       <td>Cristiano Ronaldo</td>
       <td>Al Nassr</td>
       <td>Forward</td>
     </tr>
     <tr>
-      <td>Kylian Mbappe</td>
+      <td>Kylian Mbappé</td>
       <td>Real Madrid</td>
       <td>Forward</td>
     </tr>
-    <tr>
-      <td>Kevin De Bruyne</td>
-      <td>Manchester City</td>
-      <td>Midfielder</td>
-   
-</tbody>
+  </tbody>
 </table>
+<h2>GOAT Gallery 🐐</h2>
+<img src="images/cristiano.jpg" alt="Cristiano Ronaldo" width="300">
+<p>Cristiano Ronaldo – Al Nassr</p>
+
+<img src="images/messi.jpg" alt="Lionel Messi" width="300">
+<p>Lionel Messi – Inter Miami</p>
+
+<img src="images/Mbappe.jpg" alt="Kylian Mbappé" width="300">
+<p>Kylian Mbappé – Real Madrid</p>
+
+<h2>Vote for Your GOAT 🗳️</h2>
+
+<form action="#" method="post">
+  <label for="name">Your Name:</label><br>
+  <input type="text" id="name" name="name" required><br><br>
+
+  <label for="email">Your Email:</label><br>
+  <input type="email" id="email" name="email" required><br><br>
+
+  <label for="player">Choose your GOAT:</label><br>
+  <select id="player" name="player">
+    <option value="messi">Lionel Messi</option>
+    <option value="ronaldo">Cristiano Ronaldo</option>
+    <option value="mbappe">Kylian Mbappé</option>
+  </select><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+
 
 
 
