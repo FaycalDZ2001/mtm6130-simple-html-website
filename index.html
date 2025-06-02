@@ -1,100 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Faycal's Event Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Faycal’s Fan Page</title>
 </head>
 <body>
 
   <h1>Welcome to Faycal’s Fan Page</h1>
   <p>This is a simple HTML project created for MTM6130 Web Dev I!</p>
 
-<h2>Local Image</h2>
-<img src="images/profile.jpg" alt="My local image" width="300">
-<h2>External Image</h2>
-<a href="https://www.pinterest.com/pin/712553972330388021/">
-<img src="images/Soccer.jpg" alt="Soccer ball icon" width="200">
-</a>
+  <h2>Local Image</h2>
+  <img src="images/profile.jpg" alt="My local image" width="300">
 
+  <h2>External Image</h2>
+  <img src="images/Soccer.jpg" alt="Soccer ball icon" width="200">
 
-<p>
-  Visit the official <a href="https://www.fifa.com" target="_blank">FIFA website</a> for more!
-</p>
+  <p>Visit the official <a href="https://www.fifa.com" target="_blank">FIFA website</a> for more!</p>
 
-    <h2>Contact Me</h2>
-<form>
-  <label for="name">Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
+  <h2>Contact Me</h2>
+  <p>If you have any favorite football player, fill out the form below!</p>
 
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
+  <form action="#" method="post">
+    <label for="name1">Your Name:</label><br>
+    <input type="text" id="name1" name="name1" required><br><br>
 
-  <label for="message">Your Message:</label><br>
-  <input type="text" id="message" name="message" required><br><br>
+    <label for="email1">Your Email:</label><br>
+    <input type="email" id="email1" name="email1" required><br><br>
 
-  <button type="submit">Send</button>
-</form>
-<h2>Top 3 Football Players</h2>
+    <label for="message">Your Message:</label><br>
+    <input type="text" id="message" name="message"><br><br>
 
-<table border="1">
-  <thead>
-    <tr>
-      <th>Player</th>
-      <th>Team</th>
-      <th>Position</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Lionel Messi</td>
-      <td>Inter Miami</td>
-      <td>Forward</td>
-    </tr>
-    <tr>
-      <td>Cristiano Ronaldo</td>
-      <td>Al Nassr</td>
-      <td>Forward</td>
-    </tr>
-    <tr>
-      <td>Kylian Mbappé</td>
-      <td>Real Madrid</td>
-      <td>Forward</td>
-    </tr>
-  </tbody>
-</table>
-<h2>GOAT Gallery 🐐</h2>
-<img src="images/cristiano.jpg" alt="Cristiano Ronaldo" width="300">
-<p>Cristiano Ronaldo – Al Nassr</p>
+    <input type="submit" value="Send">
+  </form>
 
-<img src="images/messi.jpg" alt="Lionel Messi" width="300">
-<p>Lionel Messi – Inter Miami</p>
+  <h2>Top 3 Football Players</h2>
+  <table border="1">
+    <thead>
+      <tr>
+        <th>Player</th>
+        <th>Team</th>
+        <th>Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Lionel Messi</td>
+        <td>Inter Miami</td>
+        <td>Forward</td>
+      </tr>
+      <tr>
+        <td>Cristiano Ronaldo</td>
+        <td>Al Nassr</td>
+        <td>Forward</td>
+      </tr>
+      <tr>
+        <td>Kylian Mbappé</td>
+        <td>Real Madrid</td>
+        <td>Forward</td>
+      </tr>
+    </tbody>
+  </table>
 
-<img src="images/Mbappe.jpg" alt="Kylian Mbappé" width="300">
-<p>Kylian Mbappé – Real Madrid</p>
+  <h2>GOAT Gallery 🐐</h2>
 
-<h2>Vote for Your GOAT 🗳️</h2>
+  <img src="images/messi.jpg" alt="Lionel Messi" width="300">
+  <p>Lionel Messi – Inter Miami</p>
 
-<form action="#" method="post">
-  <label for="name">Your Name:</label><br>
-  <input type="text" id="name" name="name" required><br><br>
+  <img src="images/cristiano.jpg" alt="Cristiano Ronaldo" width="300">
+  <p>Cristiano Ronaldo – Al Nassr</p>
 
-  <label for="email">Your Email:</label><br>
-  <input type="email" id="email" name="email" required><br><br>
+  <img src="images/Mbappe.jpg" alt="Kylian Mbappé" width="300">
+  <p>Kylian Mbappé – Real Madrid</p>
 
-  <label for="player">Choose your GOAT:</label><br>
-  <select id="player" name="player">
-    <option value="messi">Lionel Messi</option>
-    <option value="ronaldo">Cristiano Ronaldo</option>
-    <option value="mbappe">Kylian Mbappé</option>
-  </select><br><br>
+  <h2>Vote for Your GOAT 🗳️</h2>
 
-  <input type="submit" value="Submit">
-</form>
+  <form action="#" method="post">
+    <label for="goatname">Your Name:</label><br>
+    <input type="text" id="goatname" name="goatname" required><br><br>
 
+    <label for="goatemail">Your Email:</label><br>
+    <input type="email" id="goatemail" name="goatemail" required><br><br>
 
+    <label for="player">Choose your GOAT:</label><br>
+    <select id="player" name="player">
+      <option value="messi">Lionel Messi</option>
+      <option value="ronaldo">Cristiano Ronaldo</option>
+      <option value="mbappe">Kylian Mbappé</option>
+    </select><br><br>
 
-
+    <input type="submit" value="Submit">
+  </form>
 
 </body>
 </html>
